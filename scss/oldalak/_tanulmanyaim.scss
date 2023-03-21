@@ -1,0 +1,81 @@
+//TANULMANYAIM SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+body, body[data-theme="hc-off"]
+{
+       .tanulmanyaim-s
+       {
+              padding-top: 2rem;
+              background-image: url(/pics/háttérpng.png);
+              -webkit-background-size:cover;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
+              height: 100%;
+       }
+
+       .evszam
+       {
+              padding-top: 4rem;
+              color: $szoveg;
+              font-size:1rem;
+       }
+
+       .ev-line
+       {
+              margin-top: 0.3rem;
+              margin-bottom: 3rem;
+              width: 15%;
+              position: relative;
+              border: none;
+              height: 2px;
+              background:white ;
+              color: white;
+       }
+
+       .isk-text-h
+       {
+              color: $szoveg;
+              font-size: 2rem;
+              text-align: center;
+              padding: 0;
+       }
+
+       .isk-text-a
+       {
+              color: $sotetebbszoveg;
+              font-size: 1rem;
+              padding-left: 1rem;
+              padding-right: 1rem;
+              margin: 1rem 1rem 1rem 1rem;
+       }
+
+       .pic
+       {
+              max-width: 100%;
+              padding: 3rem 3rem 3rem 3rem;
+       }
+
+       .isk-text
+       {
+              padding-left: 2rem;
+              margin-bottom: 5rem;
+       }
+
+       figcaption
+       {
+              color: $vilagosabb;
+              padding-right: 3rem;
+              text-align: end;
+       }
+       .tanulmanyaim-row{
+              padding: 0;
+       }
+       .tanulmanyaim-col{
+              padding-left: 1.5rem;
+              padding-right: 0;
+              
+       }
+}

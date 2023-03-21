@@ -1,0 +1,115 @@
+//HIGHCONTRAST SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+body[data-theme="hc-on"]
+{
+       .footer, .bottom
+       {
+              background: yellow;
+       }
+
+       h3, .footer-text
+       {
+              font-weight: 500;
+              font-size: 19px;
+              color: black;
+       }
+
+       .copyright
+       {
+              font-size: 13px;
+       }
+
+       li, a
+       {
+              color: black;
+              font-weight: 450px;
+       }
+
+       .fooldal-s, .btn-small
+       {
+              background-color: black;
+              
+       }
+
+       .video
+       {
+              display: none;
+       }
+
+       .hatter
+       {
+              background-color: black;
+       }
+
+       .kapcsolat-s, .keszsegeim-s, .menu, .rolam-s, .tanulmanyaim-s
+       {
+              background: none;
+              background-color: black;
+       }
+
+       .bev-line .line, .line2, .keszsegeim-line, .line3, .ev-line
+       {
+              height: 5px;
+              background:yellow ;
+              color: yellow;
+       }
+
+       .bev-text, .form-check-label, .szabalyzat, .social-text, .keszsegeim-text
+       {
+              color: yellow;
+              font-size: 27px;
+              font-weight: 500;
+       }
+
+       .table-head-text, .table-text
+       {
+              color: yellow;
+              font-size: 19px;
+              font-weight: 500;
+       }
+
+       .vr
+       {
+              background:yellow ;
+              color: yellow;
+       }
+
+       .cim, .checkbox-text, label, h1, h2, .nav-link, .btn-outline-secondary, .rolam-links, figcaption, .line-text, p
+       {
+              color: yellow;
+       }
+
+       .table-head-text2
+       {
+              color: yellow;
+              font-size: 17px;
+              font-weight: 600;
+       }
+
+       .active
+       {
+              color: yellow;
+              background-color: black;
+       }
+
+       a
+       {
+              font-weight: 600;         
+       }
+       
+       header
+       {
+              font-weight: 550;
+              color: yellow;
+       }
+
+       .evszam, .isk-text-h, .isk-text-a, h4
+       {
+              color: yellow;
+              font-size:21px;
+       }
+
+}

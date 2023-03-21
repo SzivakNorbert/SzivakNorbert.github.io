@@ -1,0 +1,93 @@
+//KESZSEGEIM SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+body, body[data-theme="hc-off"]
+{
+       .keszsegeim-s
+       {
+              padding-top: 7rem;
+              background-image: url(/pics/háttérpng.png);
+              -webkit-background-size:cover;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
+              height: 100%;
+       }
+
+       h1
+       {
+              color: $szoveg;
+              text-align: center;
+              margin: 1rem 0.5rem 1rem 0.5rem;
+              padding: 2rem 3rem 2rem 3rem;
+       }
+
+       .keszsegeim-text
+       {
+              color: $szoveg;
+              font-weight: 400;
+              font-size: 21px;
+              margin: 1rem 1rem 1rem 1rem ;
+              line-height: 2rem;
+              padding: 1rem 1rem 2rem 1rem ;
+       }
+
+       .keszsegeim-line
+       {
+              width: 65%;
+              position: relative;
+              border: none;
+              height: 2px;
+              background:white ;
+              color: white;
+              margin-top: 5rem;
+       }
+
+       .table-text
+       {
+              color: $szoveg;
+              font-size: 15px;
+              font-weight: 500;
+       }
+
+       .table-head-text
+       {
+              color: $lila;
+              font-size: 15px;
+              font-weight: 500;
+       }
+
+       .table-head-text2
+       {
+              color: $vilagosabb;
+              font-size: 15px;
+              font-weight: 400;
+       }
+
+       details
+       {
+              margin: 0rem 3rem 0rem 3rem;
+       }
+
+       .keszsegeim-row
+       {
+              padding-top: 5rem;
+       }
+
+       .line-div
+       {
+              padding-top: 5rem;
+       }
+       .keszseg-cim{
+              margin: 0;
+       }
+       header{
+              margin: 8px 32px 0px 0px;
+       }
+       .keszsegeim-row{
+              padding: 0;
+              margin: 0;
+       }
+}

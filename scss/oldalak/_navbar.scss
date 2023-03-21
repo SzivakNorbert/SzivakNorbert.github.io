@@ -1,0 +1,24 @@
+//NAVBAR SCSS
+
+@use '../custom' as *;
+
+body, body[data-theme="hc-off"]
+{
+
+       .menu
+       {
+              background: linear-gradient(rgba($sotetebb,0.95),rgba($sotet,0.95));  
+       }
+
+       li{
+              font-family: 'Source Sans Pro', sans-serif;
+
+              a
+              {
+                     text-transform: capitalize;
+                     font-weight: 500;
+    
+              }
+       
+       }
+}

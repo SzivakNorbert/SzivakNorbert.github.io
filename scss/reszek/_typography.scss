@@ -1,0 +1,46 @@
+//TYPOGRAPHY SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+.fooldal-s
+{
+       padding: 10rem 0 0 0;
+       width: 100%;
+       height: 100%;
+       font-family: 'Source Sans Pro', sans-serif;
+       
+       .display-2--bem
+       {
+              color: $szoveg;
+              font-family: 'Source Sans Pro', sans-serif;
+       }
+       
+       .bem-link
+       {
+              color: $szoveg;
+       }
+}
+
+.line-text
+{
+       font-size: 3rem;
+       color: $szoveg;
+       font-family: 'Source Sans Pro', sans-serif;
+       font-weight: 200;
+}
+.rolam-links:link, .b:link
+       {
+              color: $szoveg;
+       }
+       .rolam-links:visited, b:visited{
+              color: $szoveg;
+       }
+     
+       .rolam-links:hover, b:hover {
+              color: rgb(178, 0, 223);
+       }
+     
+       .rolam-links:active, b:active {
+              color: rgb(0, 0, 146);
+       }

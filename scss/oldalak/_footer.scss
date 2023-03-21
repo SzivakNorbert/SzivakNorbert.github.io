@@ -1,0 +1,89 @@
+//FOOTER SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+
+body, body[data-theme="hc-off"]
+{
+
+       .footer
+       {
+              padding-top: 1rem;
+              background: linear-gradient(rgba($hatter2,0.95),rgba($hatter3,0.95));
+       }
+
+       .bottom
+       {
+       
+              padding-top: 0.5rem;
+              background: linear-gradient(rgba($hatter3,0.95),rgba($hatter4,0.95));
+       }
+
+       .navbar-brand2
+       {
+       
+              margin-bottom: 0.5rem;
+              margin-right: 0.5rem;
+       }
+
+       @media (max-width: 660px)
+       {
+              .navbar-brand2
+              {
+                display: none;
+              }
+       }
+
+       .socials-box
+       {
+              margin-top: 0.5rem;
+              margin-bottom: 5.5rem;
+       }
+
+       .contact-box
+       {
+              margin-top: 0.5rem;
+              margin-bottom: 0.5rem;
+       }
+
+       .pages
+       {
+              margin-top: 0.5rem;
+       }
+       
+       .socials-logos
+       {
+              margin-top: 0.5rem;  
+       }
+
+       .contact-logos1
+       {
+              margin-top: 0.5rem; 
+       }
+
+       .pages-list
+       {
+              margin-top: 0.5rem;
+       }
+
+       h3
+       {
+              font-weight: 450;
+              font-size: 15px;
+              color: $szoveg;
+              margin-bottom: 0.3rem;
+       }
+
+       .copyright
+       {
+              font-size: 13px;
+       }
+       .page-top{
+              padding-left: 0.5rem;
+       }
+
+}
+
+
+     

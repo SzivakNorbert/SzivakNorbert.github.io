@@ -1,0 +1,19 @@
+//STYLE SCSS
+
+@use 'custom';
+
+
+//IMPORTÁLÁSOK
+
+@use 'reszek/mixins';
+@use 'reszek/typography';
+
+@use 'oldalak/fooldal.scss';
+@use 'oldalak/footer.scss';
+@use 'oldalak/kapcsolat.scss';
+@use 'oldalak/keszsegeim.scss';
+@use 'oldalak/navbar.scss';
+@use 'oldalak/rolam.scss';
+@use 'oldalak/tanulmanyaim.scss';
+@use 'oldalak/print.scss';
+@use 'oldalak/highcontrast.scss';

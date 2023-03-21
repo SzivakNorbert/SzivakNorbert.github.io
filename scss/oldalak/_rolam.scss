@@ -1,0 +1,63 @@
+//ROLAM SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+body, body[data-theme="hc-off"]
+{
+       .rolam-s
+       {
+              padding-top: 7rem;
+              background-image: url(/pics/háttérpng.png);
+              -webkit-background-size:cover;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
+              height: 100%;
+       }
+
+       .foto
+       {
+              padding: 3rem 3rem 3rem 3rem;
+              margin-bottom: 9rem;
+
+       }
+
+       article
+       {
+              
+              font-size: 1.25rem;
+              line-height: 1.9rem;
+              font-weight: 425;
+       }
+
+       header
+       {
+              margin-left: 2rem;
+              margin-bottom: 0.5rem;
+              font-weight: 500;
+       }
+
+       
+
+       .line3
+       {
+              margin-top: 3rem;
+              margin-bottom: 7rem;
+              width: 45%;
+              position: relative;
+              border: none;
+              height: 2px;
+              background:white ;
+              color: white;
+       }
+       h4{
+              color: $szoveg;
+              padding: 0rem 0rem 0rem 0rem;
+       }
+       .rolam-links{
+              word-wrap: break-word;
+              left: 1rem;
+       }
+
+}

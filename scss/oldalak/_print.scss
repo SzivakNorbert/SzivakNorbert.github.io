@@ -1,0 +1,114 @@
+//PRINT SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+@media print {
+       
+       @page
+       {
+              size: A4 !important;
+              size: portrait !important;
+              size: auto !important;
+              margin: 10% !important;
+              margin-left: 1.2 cm !important;
+              margin-right: 2.1 cm !important;
+       }
+       .fooldal-s
+       {
+              background-color: white !important; 
+       }
+       h1 h3, .szia, .keszsegeim-felirat, .kapcsolat-felirat
+       {
+              color: black !important;
+       }
+       .contact-box
+       {
+              color: black !important;
+       }
+       h3{
+              text-align: left !important;
+       }
+
+       footer
+       {
+              page-break-after: always !important;
+       }
+       .footer-text{
+              color: #000 !important;
+              justify-content: left !important;
+       }
+
+       .display-2, .line-text, li, .copyright, .magamrol, .keszsegeim-text, .table-head-text,
+       .table-text, .table-head-text2, .evszam, .isk-text-h, .isk-text-a, .bev-text, .check-text,
+       .checkbox-text, .btn, .social-text, .cim, .form-control, b
+       {
+              color: #000 !important;
+              margin: 0rem 0rem 0rem 0rem !important;
+              padding: 0rem 0rem 0rem 0rem !important;
+       }
+
+       .line-div, .foto
+       {
+              margin: 0rem 0rem 0rem 0rem !important;
+              padding: 0rem 0rem 0rem 0rem !important;
+       }
+
+       a
+       {
+              page-break-inside: avoid !important;
+       }
+
+	table, figure
+       {
+              page-break-inside: avoid !important;
+       }
+
+       
+
+       .rolam-s, .keszsegeim-s, .tanulmanyaim-s, .kapcsolat-s
+       {
+              background: none !important;
+       }
+
+       .video, .slide
+       {
+              display: none !important;
+       }
+
+       .pic
+       {
+              width: 50 !important;
+              height: 50 !important;
+       }
+
+       a:link, a:visited
+       {
+              color: #000 !important;
+              border: none !important;
+              color: #0000ff !important;
+              padding: 5px 5px !important;
+              text-align: center !important;
+              text-decoration: none !important;
+              font-size: 2rem !important;
+              text-align: center !important; 
+       }
+
+       .footer:after
+       {
+              content: "\ All Rights Reserved. Szivak Norbert @ March 2023";
+              color: #FF2446 !important;
+              font-size: 2em !important;
+              padding-top: 20px !important;
+       }
+
+       .footer, .bottom
+       {
+              background: white !important;
+       }
+       
+       .navbar
+       {
+              display:none !important;
+       }
+}

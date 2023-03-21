@@ -1,0 +1,21 @@
+//MIXINS SCSS
+
+@use '../custom' as *;
+
+@mixin gradient
+{
+       background: linear-gradient(rgba($footer1,0.95),rgba($footer2,0.95));
+}
+
+@mixin barGradient
+{
+       background: linear-gradient(rgba($bar1,0.95),rgba($bar2,0.95));
+}
+
+@mixin absoluteCenter
+{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+}

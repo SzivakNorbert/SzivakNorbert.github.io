@@ -1,0 +1,174 @@
+//KAPCSOLAT SCSS
+
+@use '../custom' as *;
+@use '../reszek/mixins' as *;
+
+body, body[data-theme="hc-off"]
+{
+       .kapcsolat-s
+       {
+              padding-top: 2rem;
+              background-image: url(/pics/háttérpng.png);
+              -webkit-background-size:cover;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
+              height: 100%;
+       }
+
+       .bev-line-box
+       {
+              padding-top: 2rem;
+              padding-bottom: 1rem;
+       }
+
+       .bev-line
+       {
+              width: 35%;
+              position: relative;
+              border: none;
+              height: 2px;
+              background:white ;
+              color: white;    
+       }
+
+       .bev-text
+       {
+              color: $sotetebbszoveg;
+              text-align: center;
+       }
+
+       .perm
+       {
+              padding-right: 2rem;
+              padding-left: 2rem;
+       }
+
+       .kereszt-nev
+       {
+              
+              padding-bottom:2rem;
+       }
+
+       .vezetek-nev
+       {
+              padding-bottom: 2rem;
+       }
+
+       .e-mail-field
+       {
+              padding-bottom: 1rem;
+       }
+
+       .targy-field
+       {
+              padding-bottom: 1rem;
+       }
+
+       .form-check-label
+       {
+              color: $szoveg;
+       }
+
+       .szabalyzat
+       {
+              color: $szoveg;
+              text-align: center;
+              justify-content: center;
+              margin: 0%;
+              padding: 0rem 1rem 0rem 1rem;
+                     
+       }
+
+       .sz-chk
+       {
+              justify-content: center;
+       }
+
+       .nyilatkozat-checkbox
+       {
+              padding-top: 1rem;
+       }
+
+       .social-text
+       {
+              color: $szoveg;
+              font-size: 21px;
+              text-align: center;
+              margin: 1rem 1rem 1rem 1rem;
+              padding-left: 2rem;
+              padding-right: 2rem;
+       }
+
+       .buttons
+       {
+              padding-bottom: 1rem;
+       }
+
+       
+
+
+       .contact-icon
+       {
+              padding: 2rem 1rem 2rem 1rem;
+              max-width: 150px;
+       }
+
+       .vr
+       {
+              width: 2px;
+              position: relative;
+              border: none;
+              height: 100%;
+              background:white ;
+              color: white;
+       }
+
+       .contact-icon-mail
+       {
+              padding-top: 0.5rem;
+              padding-bottom: 0.5rem;
+              max-width: 190px;
+       }
+
+       
+
+       .cim
+       {
+              color: $szoveg;
+              line-height: 2rem;
+              padding-left: 1rem;
+       }
+
+       .checkbox-text
+       {
+              color: $szoveg;
+              padding: 0rem 0.5rem 0rem 0.5rem;
+       }
+
+       label
+       {
+              color: $vilagosabb;
+       }
+
+       h2
+       {
+              text-align: center;
+              color: $szoveg;
+              padding-bottom: 3rem;
+       }
+       .field, .level-row{
+              display: flex;
+              justify-content: center;
+              margin: 0 auto;
+              padding: 0 0 0 0;
+       }
+       .row-socials, .contact-icons{
+              display: flex;
+              justify-content: center;
+              margin: 0 auto;
+              padding: 0 0 0 0;
+
+       }
+
+}
