@@ -10808,11 +10808,12 @@ textarea.form-control-lg {
 
 body .fooldal-s, body[data-theme=hc-off] .fooldal-s {
   background-color: #424242;
+  padding-top: 5rem;
 }
 body .display-2, body[data-theme=hc-off] .display-2 {
   margin-bottom: 1rem;
-  padding: 5rem 0rem 5rem 0rem;
-  font-size: 55px;
+  padding: 3rem 0rem 3rem 0rem;
+  font-size: 75px;
 }
 body .line, body[data-theme=hc-off] .line {
   width: 35%;
@@ -10832,7 +10833,7 @@ body .line2, body[data-theme=hc-off] .line2 {
 }
 body .line-text-div, body[data-theme=hc-off] .line-text-div {
   padding-top: 3rem;
-  padding-bottom: 15rem;
+  padding-bottom: 3rem;
 }
 body .hatter, body[data-theme=hc-off] .hatter {
   background-image: url(/pics/háttérpng.png);
@@ -10844,6 +10845,16 @@ body .hatter, body[data-theme=hc-off] .hatter {
 }
 body .video-leiras, body[data-theme=hc-off] .video-leiras {
   color: white;
+  font-size: large;
+}
+body .video, body[data-theme=hc-off] .video {
+  width: 100%;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+body .line-text, body[data-theme=hc-off] .line-text {
+  padding-bottom: 0rem;
 }
 
 body .footer, body[data-theme=hc-off] .footer {
@@ -10873,12 +10884,19 @@ body .contact-box, body[data-theme=hc-off] .contact-box {
 }
 body .pages, body[data-theme=hc-off] .pages {
   margin-top: 0.5rem;
+  text-align: center;
 }
 body .socials-logos, body[data-theme=hc-off] .socials-logos {
   margin-top: 0.5rem;
+  justify-content: center;
 }
 body .contact-logos1, body[data-theme=hc-off] .contact-logos1 {
-  margin-top: 0.5rem;
+  padding-right: 1rem;
+  justify-content: center;
+}
+body .contact-logos2, body[data-theme=hc-off] .contact-logos2 {
+  padding-right: 1rem;
+  justify-content: center;
 }
 body .pages-list, body[data-theme=hc-off] .pages-list {
   margin-top: 0.5rem;
@@ -10894,6 +10912,21 @@ body .copyright, body[data-theme=hc-off] .copyright {
 }
 body .page-top, body[data-theme=hc-off] .page-top {
   padding-left: 0.5rem;
+}
+body .footer-text, body[data-theme=hc-off] .footer-text {
+  text-align: center;
+  font-size: 17px;
+}
+body li, body[data-theme=hc-off] li {
+  display: table;
+  margin: auto;
+}
+body .footer-text-pages, body[data-theme=hc-off] .footer-text-pages {
+  text-align: center;
+  font-size: 17px;
+}
+body .footer-ul, body[data-theme=hc-off] .footer-ul {
+  padding-right: 2rem;
 }
 
 body .kapcsolat-s, body[data-theme=hc-off] .kapcsolat-s {
@@ -10920,6 +10953,7 @@ body .bev-line, body[data-theme=hc-off] .bev-line {
 body .bev-text, body[data-theme=hc-off] .bev-text {
   color: #bebebe;
   text-align: center;
+  font-size: 30px;
 }
 body .perm, body[data-theme=hc-off] .perm {
   padding-right: 2rem;
@@ -10955,7 +10989,7 @@ body .nyilatkozat-checkbox, body[data-theme=hc-off] .nyilatkozat-checkbox {
 }
 body .social-text, body[data-theme=hc-off] .social-text {
   color: #ffffff;
-  font-size: 21px;
+  font-size: 27px;
   text-align: center;
   margin: 1rem 1rem 1rem 1rem;
   padding-left: 2rem;
@@ -10983,15 +11017,17 @@ body .contact-icon-mail, body[data-theme=hc-off] .contact-icon-mail {
 }
 body .cim, body[data-theme=hc-off] .cim {
   color: #ffffff;
+  font-size: 19px;
   line-height: 2rem;
-  padding-left: 1rem;
+  padding: 3rem 0rem 3rem 1rem;
 }
 body .checkbox-text, body[data-theme=hc-off] .checkbox-text {
   color: #ffffff;
   padding: 0rem 0.5rem 0rem 0.5rem;
 }
 body label, body[data-theme=hc-off] label {
-  color: #9e9e9e;
+  color: #a9a9a9;
+  font-size: 20px;
 }
 body h2, body[data-theme=hc-off] h2 {
   text-align: center;
@@ -11010,9 +11046,13 @@ body .row-socials, body .contact-icons, body[data-theme=hc-off] .row-socials, bo
   margin: 0 auto;
   padding: 0 0 0 0;
 }
+body .kapcsolat-felirat, body[data-theme=hc-off] .kapcsolat-felirat {
+  padding-top: 1rem;
+  font-size: 45px;
+}
 
 body .keszsegeim-s, body[data-theme=hc-off] .keszsegeim-s {
-  padding-top: 7rem;
+  padding-top: 3rem;
   background-image: url(/pics/háttérpng.png);
   -webkit-background-size: cover;
   background-size: cover;
@@ -11029,7 +11069,7 @@ body h1, body[data-theme=hc-off] h1 {
 body .keszsegeim-text, body[data-theme=hc-off] .keszsegeim-text {
   color: #ffffff;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 25px;
   margin: 1rem 1rem 1rem 1rem;
   line-height: 2rem;
   padding: 1rem 1rem 2rem 1rem;
@@ -11041,7 +11081,7 @@ body .keszsegeim-line, body[data-theme=hc-off] .keszsegeim-line {
   height: 2px;
   background: white;
   color: white;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 body .table-text, body[data-theme=hc-off] .table-text {
   color: #ffffff;
@@ -11050,11 +11090,11 @@ body .table-text, body[data-theme=hc-off] .table-text {
 }
 body .table-head-text, body[data-theme=hc-off] .table-head-text {
   color: #9f00cf;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 500;
 }
 body .table-head-text2, body[data-theme=hc-off] .table-head-text2 {
-  color: #9e9e9e;
+  color: #a9a9a9;
   font-size: 15px;
   font-weight: 400;
 }
@@ -11065,7 +11105,7 @@ body .keszsegeim-row, body[data-theme=hc-off] .keszsegeim-row {
   padding-top: 5rem;
 }
 body .line-div, body[data-theme=hc-off] .line-div {
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 body .keszseg-cim, body[data-theme=hc-off] .keszseg-cim {
   margin: 0;
@@ -11076,6 +11116,9 @@ body header, body[data-theme=hc-off] header {
 body .keszsegeim-row, body[data-theme=hc-off] .keszsegeim-row {
   padding: 0;
   margin: 0;
+}
+body .keszsegeim-felirat, body[data-theme=hc-off] .keszsegeim-felirat {
+  font-size: 43px;
 }
 
 body .menu, body[data-theme=hc-off] .menu {
@@ -11089,8 +11132,12 @@ body li a, body[data-theme=hc-off] li a {
   font-weight: 500;
 }
 
+.navbar {
+  text-align: left;
+}
+
 body .rolam-s, body[data-theme=hc-off] .rolam-s {
-  padding-top: 7rem;
+  padding-top: 3rem;
   background-image: url(/pics/háttérpng.png);
   -webkit-background-size: cover;
   background-size: cover;
@@ -11099,13 +11146,12 @@ body .rolam-s, body[data-theme=hc-off] .rolam-s {
   height: 100%;
 }
 body .foto, body[data-theme=hc-off] .foto {
-  padding: 3rem 3rem 3rem 3rem;
-  margin-bottom: 9rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 body article, body[data-theme=hc-off] article {
-  font-size: 1.25rem;
+  font-size: 25px;
   line-height: 1.9rem;
-  font-weight: 425;
+  font-weight: 400;
 }
 body header, body[data-theme=hc-off] header {
   margin-left: 2rem;
@@ -11113,8 +11159,8 @@ body header, body[data-theme=hc-off] header {
   font-weight: 500;
 }
 body .line3, body[data-theme=hc-off] .line3 {
-  margin-top: 3rem;
-  margin-bottom: 7rem;
+  margin-top: 1rem;
+  padding-bottom: 0rem;
   width: 45%;
   position: relative;
   border: none;
@@ -11125,14 +11171,20 @@ body .line3, body[data-theme=hc-off] .line3 {
 body h4, body[data-theme=hc-off] h4 {
   color: #ffffff;
   padding: 0rem 0rem 0rem 0rem;
+  text-align: center;
+  color: #a9a9a9;
 }
 body .rolam-links, body[data-theme=hc-off] .rolam-links {
   word-wrap: break-word;
   left: 1rem;
+  text-align: center;
+}
+body .linkek-row, body[data-theme=hc-off] .linkek-row {
+  margin: auto;
 }
 
 body .tanulmanyaim-s, body[data-theme=hc-off] .tanulmanyaim-s {
-  padding-top: 2rem;
+  padding-top: 5rem;
   background-image: url(/pics/háttérpng.png);
   -webkit-background-size: cover;
   background-size: cover;
@@ -11141,9 +11193,11 @@ body .tanulmanyaim-s, body[data-theme=hc-off] .tanulmanyaim-s {
   height: 100%;
 }
 body .evszam, body[data-theme=hc-off] .evszam {
-  padding-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 35px;
+  margin-top: 0;
 }
 body .ev-line, body[data-theme=hc-off] .ev-line {
   margin-top: 0.3rem;
@@ -11160,13 +11214,14 @@ body .isk-text-h, body[data-theme=hc-off] .isk-text-h {
   font-size: 2rem;
   text-align: center;
   padding: 0;
+  padding-bottom: 2rem;
 }
 body .isk-text-a, body[data-theme=hc-off] .isk-text-a {
   color: #bebebe;
   font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0rem 1rem 2rem 1rem;
   margin: 1rem 1rem 1rem 1rem;
+  font-size: 19px;
 }
 body .pic, body[data-theme=hc-off] .pic {
   max-width: 100%;
@@ -11174,12 +11229,13 @@ body .pic, body[data-theme=hc-off] .pic {
 }
 body .isk-text, body[data-theme=hc-off] .isk-text {
   padding-left: 2rem;
-  margin-bottom: 5rem;
 }
 body figcaption, body[data-theme=hc-off] figcaption {
-  color: #9e9e9e;
+  color: #a9a9a9;
   padding-right: 3rem;
   text-align: end;
+  padding-bottom: 2rem;
+  font-size: 17px;
 }
 body .tanulmanyaim-row, body[data-theme=hc-off] .tanulmanyaim-row {
   padding: 0;
@@ -11187,6 +11243,9 @@ body .tanulmanyaim-row, body[data-theme=hc-off] .tanulmanyaim-row {
 body .tanulmanyaim-col, body[data-theme=hc-off] .tanulmanyaim-col {
   padding-left: 1.5rem;
   padding-right: 0;
+}
+body .line-div-tanulmany, body[data-theme=hc-off] .line-div-tanulmany {
+  padding-bottom: 2rem;
 }
 
 @media print {
@@ -11272,7 +11331,7 @@ body[data-theme=hc-on] .footer, body[data-theme=hc-on] .bottom {
 }
 body[data-theme=hc-on] h3, body[data-theme=hc-on] .footer-text {
   font-weight: 500;
-  font-size: 19px;
+  font-size: 20px;
   color: black;
 }
 body[data-theme=hc-on] .copyright {
@@ -11280,7 +11339,7 @@ body[data-theme=hc-on] .copyright {
 }
 body[data-theme=hc-on] li, body[data-theme=hc-on] a {
   color: black;
-  font-weight: 450px;
+  font-weight: 470px;
 }
 body[data-theme=hc-on] .fooldal-s, body[data-theme=hc-on] .btn-small {
   background-color: black;
@@ -11302,24 +11361,24 @@ body[data-theme=hc-on] .bev-line .line, body[data-theme=hc-on] .line2, body[data
 }
 body[data-theme=hc-on] .bev-text, body[data-theme=hc-on] .form-check-label, body[data-theme=hc-on] .szabalyzat, body[data-theme=hc-on] .social-text, body[data-theme=hc-on] .keszsegeim-text {
   color: yellow;
-  font-size: 27px;
+  font-size: 29px;
   font-weight: 500;
 }
 body[data-theme=hc-on] .table-head-text, body[data-theme=hc-on] .table-text {
   color: yellow;
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 500;
 }
 body[data-theme=hc-on] .vr {
   background: yellow;
   color: yellow;
 }
-body[data-theme=hc-on] .cim, body[data-theme=hc-on] .checkbox-text, body[data-theme=hc-on] label, body[data-theme=hc-on] h1, body[data-theme=hc-on] h2, body[data-theme=hc-on] .nav-link, body[data-theme=hc-on] .btn-outline-secondary, body[data-theme=hc-on] .rolam-links, body[data-theme=hc-on] figcaption, body[data-theme=hc-on] .line-text, body[data-theme=hc-on] p {
+body[data-theme=hc-on] .evszam, body[data-theme=hc-on] .cim, body[data-theme=hc-on] .checkbox-text, body[data-theme=hc-on] label, body[data-theme=hc-on] h1, body[data-theme=hc-on] h2, body[data-theme=hc-on] .nav-link, body[data-theme=hc-on] .btn-outline-secondary, body[data-theme=hc-on] .rolam-links, body[data-theme=hc-on] figcaption, body[data-theme=hc-on] .line-text, body[data-theme=hc-on] p {
   color: yellow;
 }
 body[data-theme=hc-on] .table-head-text2 {
   color: yellow;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
 }
 body[data-theme=hc-on] .active {
@@ -11327,15 +11386,94 @@ body[data-theme=hc-on] .active {
   background-color: black;
 }
 body[data-theme=hc-on] a {
-  font-weight: 600;
+  font-weight: 620;
 }
 body[data-theme=hc-on] header {
-  font-weight: 550;
+  font-weight: 570;
   color: yellow;
 }
-body[data-theme=hc-on] .evszam, body[data-theme=hc-on] .isk-text-h, body[data-theme=hc-on] .isk-text-a, body[data-theme=hc-on] h4 {
+body[data-theme=hc-on] .isk-text-h, body[data-theme=hc-on] .isk-text-a, body[data-theme=hc-on] h4 {
   color: yellow;
-  font-size: 21px;
+  font-size: 23px;
+}
+
+@media screen and (min-width: 401px) {
+  .display-2 {
+    font-size: 67px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .display-2 {
+    font-size: 45px !important;
+  }
+  .line-text {
+    font-size: 35px;
+  }
+  .szia {
+    font-size: 19px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .keszsegeim-felirat {
+    font-size: 33px !important;
+  }
+  .keszsegeim-text {
+    font-size: 20px !important;
+  }
+  .table-head-text {
+    font-size: 16px !important;
+  }
+  .table-text {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 260px) {
+  .display-2 {
+    font-size: 19px;
+  }
+  .line-text {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .foto {
+    width: 450px;
+  }
+  figcaption {
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 1412px) {
+  .evszam {
+    font-size: 30px !important;
+  }
+  .isk-text-h {
+    font-size: 27px !important;
+  }
+  .isk-text-a {
+    font-size: 15px !important;
+  }
+  figcaption {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .kapcsolat-felirat {
+    font-size: 40px !important;
+  }
+  .bev-text {
+    font-size: 25px !important;
+  }
+  label {
+    font-size: 15px !important;
+  }
+  .social-text {
+    font-size: 23px !important;
+  }
+  .cim {
+    font-size: 14px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

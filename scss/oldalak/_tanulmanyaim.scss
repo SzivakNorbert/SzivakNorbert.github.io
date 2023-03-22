@@ -7,7 +7,7 @@ body, body[data-theme="hc-off"]
 {
        .tanulmanyaim-s
        {
-              padding-top: 2rem;
+              padding-top: 5rem;
               background-image: url(/pics/háttérpng.png);
               -webkit-background-size:cover;
               background-size: cover;
@@ -18,9 +18,11 @@ body, body[data-theme="hc-off"]
 
        .evszam
        {
-              padding-top: 4rem;
+              padding-top: 1rem;
+              padding-bottom: 1rem;
               color: $szoveg;
-              font-size:1rem;
+              font-size: 35px;
+              margin-top: 0;
        }
 
        .ev-line
@@ -41,15 +43,16 @@ body, body[data-theme="hc-off"]
               font-size: 2rem;
               text-align: center;
               padding: 0;
+              padding-bottom: 2rem;
        }
 
        .isk-text-a
        {
               color: $sotetebbszoveg;
               font-size: 1rem;
-              padding-left: 1rem;
-              padding-right: 1rem;
+              padding: 0rem 1rem 2rem 1rem;
               margin: 1rem 1rem 1rem 1rem;
+              font-size: 19px;
        }
 
        .pic
@@ -61,7 +64,7 @@ body, body[data-theme="hc-off"]
        .isk-text
        {
               padding-left: 2rem;
-              margin-bottom: 5rem;
+              
        }
 
        figcaption
@@ -69,6 +72,8 @@ body, body[data-theme="hc-off"]
               color: $vilagosabb;
               padding-right: 3rem;
               text-align: end;
+              padding-bottom: 2rem;
+              font-size: 17px;
        }
        .tanulmanyaim-row{
               padding: 0;
@@ -78,4 +83,9 @@ body, body[data-theme="hc-off"]
               padding-right: 0;
               
        }
+       .line-div-tanulmany{
+              padding-bottom: 2rem;
+       }
+      
+
 }

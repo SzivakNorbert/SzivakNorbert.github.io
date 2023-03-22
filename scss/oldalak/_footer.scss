@@ -50,16 +50,24 @@ body, body[data-theme="hc-off"]
        .pages
        {
               margin-top: 0.5rem;
+              text-align: center;
        }
        
        .socials-logos
        {
-              margin-top: 0.5rem;  
+              margin-top: 0.5rem;
+              justify-content: center;
        }
 
        .contact-logos1
        {
-              margin-top: 0.5rem; 
+              padding-right: 1rem;
+              justify-content: center;
+       }
+       .contact-logos2
+       {
+              padding-right: 1rem;
+              justify-content: center;
        }
 
        .pages-list
@@ -81,6 +89,25 @@ body, body[data-theme="hc-off"]
        }
        .page-top{
               padding-left: 0.5rem;
+       }
+       .footer-text{
+              text-align: center;
+              font-size: 17px;
+
+       }
+       li{
+              //text-align: center;
+              display: table;
+              margin: auto;
+              //padding-left: 0.1rem;
+       }
+       .footer-text-pages{
+              text-align: center;
+              font-size: 17px;
+
+       }
+       .footer-ul{
+              padding-right: 2rem;
        }
 
 }

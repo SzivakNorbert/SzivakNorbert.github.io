@@ -8,14 +8,15 @@ body, body[data-theme="hc-off"]
        .fooldal-s
        {
               background-color: $hatter;
+              padding-top: 5rem;
        }
 
        .display-2
        {
               margin-bottom: 1rem;
                      
-                     padding: 5rem 0rem 5rem 0rem;
-                     font-size: 55px;
+                     padding: 3rem 0rem 3rem 0rem;
+                     font-size: 75px;
        }
 
        .line
@@ -43,7 +44,7 @@ body, body[data-theme="hc-off"]
        .line-text-div
        {
               padding-top: 3rem;
-              padding-bottom: 15rem;
+              padding-bottom: 3rem;
        }
        
        .hatter
@@ -57,7 +58,18 @@ body, body[data-theme="hc-off"]
        }
        .video-leiras{
               color: white;
+              font-size:large;
        }
+       .video {
+              width: 100%;
+              height: auto;
+              padding-left: 2rem;
+              padding-right: 2rem;
+       }
+       .line-text{
+              padding-bottom: 0rem;
+       }
+       
 }
 
 

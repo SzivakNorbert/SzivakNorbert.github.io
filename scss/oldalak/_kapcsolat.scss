@@ -36,6 +36,7 @@ body, body[data-theme="hc-off"]
        {
               color: $sotetebbszoveg;
               text-align: center;
+              font-size: 30px;
        }
 
        .perm
@@ -93,7 +94,7 @@ body, body[data-theme="hc-off"]
        .social-text
        {
               color: $szoveg;
-              font-size: 21px;
+              font-size: 27px;
               text-align: center;
               margin: 1rem 1rem 1rem 1rem;
               padding-left: 2rem;
@@ -136,8 +137,9 @@ body, body[data-theme="hc-off"]
        .cim
        {
               color: $szoveg;
+              font-size: 19px;
               line-height: 2rem;
-              padding-left: 1rem;
+              padding: 3rem 0rem 3rem 1rem;
        }
 
        .checkbox-text
@@ -149,6 +151,7 @@ body, body[data-theme="hc-off"]
        label
        {
               color: $vilagosabb;
+              font-size: 20px;
        }
 
        h2
@@ -169,6 +172,11 @@ body, body[data-theme="hc-off"]
               margin: 0 auto;
               padding: 0 0 0 0;
 
+       }
+       .kapcsolat-felirat
+       {
+              padding-top: 1rem;
+              font-size: 45px;
        }
 
 }

@@ -7,7 +7,7 @@ body, body[data-theme="hc-off"]
 {
        .rolam-s
        {
-              padding-top: 7rem;
+              padding-top: 3rem;
               background-image: url(/pics/háttérpng.png);
               -webkit-background-size:cover;
               background-size: cover;
@@ -18,17 +18,16 @@ body, body[data-theme="hc-off"]
 
        .foto
        {
-              padding: 3rem 3rem 3rem 3rem;
-              margin-bottom: 9rem;
+              padding: 2rem 2rem 2rem 2rem;
 
        }
 
        article
        {
               
-              font-size: 1.25rem;
+              font-size: 25px;
               line-height: 1.9rem;
-              font-weight: 425;
+              font-weight: 400;
        }
 
        header
@@ -42,8 +41,8 @@ body, body[data-theme="hc-off"]
 
        .line3
        {
-              margin-top: 3rem;
-              margin-bottom: 7rem;
+              margin-top: 1rem;
+              padding-bottom: 0rem;
               width: 45%;
               position: relative;
               border: none;
@@ -54,10 +53,16 @@ body, body[data-theme="hc-off"]
        h4{
               color: $szoveg;
               padding: 0rem 0rem 0rem 0rem;
+              text-align: center;
+              color: $vilagosabb;
        }
        .rolam-links{
               word-wrap: break-word;
               left: 1rem;
+              text-align: center;
+       }
+       .linkek-row{
+              margin: auto;
        }
 
 }
